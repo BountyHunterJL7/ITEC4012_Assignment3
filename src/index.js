@@ -11,13 +11,13 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyD2dAwnFgZpZ-UpvVkHHGT4zKu5CypFwsQ",
-  authDomain: "cars-fb6e1.firebaseapp.com",
-  databaseURL: "https://cars-fb6e1-default-rtdb.firebaseio.com",
-  projectId: "cars-fb6e1",
+  apiKey: process.env.REACT_APP_API_KEY,
+  authDomain: process.env.REACT_APP_AUTH_DOMAIN,
+  databaseURL: process.env.REACT_APP_DATABASE_URL,
+  projectId: process.env.REACT_APP_PROJECT_ID,
   storageBucket: "cars-fb6e1.appspot.com",
-  messagingSenderId: "375996868267",
-  appId: "1:375996868267:web:021bcbcc18d67d69e139ee"
+  messagingSenderId: process.env.REACT_APP_MESSAGIN_SENDER_ID,
+  appId: process.env.REACT_APP_FIREBASE_APP_ID
 };
 
 // Initialize Firebase
