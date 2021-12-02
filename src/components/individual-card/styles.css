@@ -1,0 +1,18 @@
+.info-pic{
+    width:  550pt;
+    height: 400pt;
+    object-fit: cover;
+}
+
+.car-text{
+    text-align: left;
+    margin-left: 10%;
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin:none;
+}
+
+.car-page{
+    background-color: black;
+}
